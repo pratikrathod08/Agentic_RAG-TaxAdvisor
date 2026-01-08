@@ -78,13 +78,13 @@ class DataIngestion:
         return retriever
     
 
-if __name__ == "__main__": 
-    data_ingestion =    (config)
-    data_ingestion.initialize_vector_storage()
+# if __name__ == "__main__": 
+#     data_ingestion =    (config)
+#     data_ingestion.initialize_vector_storage()
 
-    retriever = data_ingestion.get_retriever()
-    response = retriever.invoke("give me current rate of tax")
-    print(response)
+#     retriever = data_ingestion.get_retriever()
+#     response = retriever.invoke("give me current rate of tax")
+#     print(response)
 
 
 

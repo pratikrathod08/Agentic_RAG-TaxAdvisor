@@ -9,10 +9,9 @@ langchain-openai
 langchain-tavily
 langchain-core
 langchain-community
-langchain_chroma
-langchain_huggingface
+langchain-chroma
+langchain-huggingface
 sentence-transformers
-
 graphviz
 mermaid-py
 

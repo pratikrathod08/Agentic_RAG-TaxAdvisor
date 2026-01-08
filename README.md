@@ -69,4 +69,16 @@ uvicorn src.main:app --reload
 - Create nodes folder to store all nodes. 
 - Create Graph component for create graph.
 
+#### Step 12 : Create API's 
 
+- Create api's for vector store creation and user q&a
+
+- Run below command to start app
+```bash
+uv run python -m uvicorn src.main:app --reload
+```
+
+- Test endpoints(Using SwaggerUI)
+```bash
+http://127.0.0.1:8000/docs
+```

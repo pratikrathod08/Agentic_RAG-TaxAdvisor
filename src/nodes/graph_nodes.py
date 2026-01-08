@@ -38,8 +38,6 @@ def answer_node(state: AgentState):
         f"""
         Answer the question using ONLY the context below.
 
-        Note : Answer should look like Tax Advisor. Adopt Tax Advisor Human persona for answer query.
-
         Question:
         {state['query']}
 
