@@ -1,8 +1,19 @@
 fastapi 
 uvicorn
 python-dotenv
+pymupdf
+ipykernel
 langchain
 langgraph
 langchain-openai
+langchain-tavily
+langchain-core
+langchain-community
+langchain_chroma
+langchain_huggingface
+sentence-transformers
+
+graphviz
+mermaid-py
 
 -e .
